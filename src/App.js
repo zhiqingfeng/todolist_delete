@@ -39,7 +39,7 @@ function App() {
             <tr key={index}>
               <td>{todo.date}</td>
               <td>{todo.desc}</td>
-              <td><button id={index} onClick={() => deleteTodo(index)}>Delete</button></td>
+              <td><button onClick={() => deleteTodo(index)}>Delete</button></td>
             </tr>
           )
           }
